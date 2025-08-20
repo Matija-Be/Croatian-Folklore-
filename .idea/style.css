@@ -2,26 +2,38 @@ body {
     background-image: url("Panonska.jpg"), url("c72f0-lika.jpg"), url("Alpska Wallpaper.jpg");
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position-x: center, center, center;
-    background-position-y: 680px, 2350px, 4100px;
-    background-size: 100% 45%, 100% 45%, 100% 45%;
+    background-position-y: 730px, 2350px, 4100px;
+    background-size: 100% 40%, 100% 45%, 100% 45%;
 
+}
+.ContentEnglish{
+    display: block;
+}
+.ContentCroatian{
+    display: none;
+}
+#switch:checked ~ main .ContentEnglish{
+    display: none;
+}
+#switch:checked ~ main .ContentCroatian{
+    display: block;
 }
 
 
 #dinarska-header{
-    transform: translateY(280px);
+    transform: translateY(150px);
 }
 
 #dinarska-picture{
-    transform: translateY(300px);
+    transform: translateY(180px);
 }
 
 #dinarska-main{
-    transform: translateY(350px);
+    transform: translateY(220px);
 }
 
 #dinarska-video{
-    transform: translateY(400px);
+    transform: translateY(290px);
 }
 #alpska-header{
     transform: translateY(450px);
