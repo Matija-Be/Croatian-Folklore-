@@ -1,9 +1,32 @@
-#Dinarska-Header{
-    margin-top: 30px
+body {
+    background-image: url("Panonska.jpg"), url("c72f0-lika.jpg"), url("Alpska Wallpaper.jpg");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position-x: center, center, center;
+    background-position-y: 680px, 2350px, 4100px;
+    background-size: 100% 45%, 100% 45%, 100% 45%;
+
 }
-#dinarksa-main{
-    margin-top: 50px;
+
+
+#dinarska-header{
+    transform: translateY(280px);
 }
-#dinarska-main img{
-    margin-top: 30px;
+
+#dinarska-picture{
+    transform: translateY(300px);
+}
+
+#dinarska-main{
+    transform: translateY(350px);
+}
+
+#dinarska-video{
+    transform: translateY(400px);
+}
+#alpska-header{
+    transform: translateY(450px);
+}
+
+#alpska-picture{
+    transform: translateY(460px);
 }
