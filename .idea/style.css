@@ -2,8 +2,8 @@ body {
     background-image: url("Panonska.jpg"), url("c72f0-lika.jpg"), url("Alpska Wallpaper.jpg");
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position-x: center, center, center;
-    background-position-y: 730px, 2350px, 4100px;
-    background-size: 100% 40%, 100% 45%, 100% 45%;
+    background-position-y: 730px, 2350px, 4000px;
+    background-size: 100% 35%, 100% 35%, 100% 35%;
 
 }
 .ContentEnglish{
@@ -21,24 +21,30 @@ body {
 
 
 #dinarska-header{
-    transform: translateY(150px);
+    transform: translateY(350px);
 }
 
 #dinarska-picture{
-    transform: translateY(180px);
+    transform: translateY(350px);
 }
 
 #dinarska-main{
-    transform: translateY(220px);
+    transform: translateY(350px);
 }
 
 #dinarska-video{
-    transform: translateY(290px);
+    transform: translateY(370px);
 }
 #alpska-header{
     transform: translateY(450px);
 }
 
 #alpska-picture{
-    transform: translateY(460px);
+    transform: translateY(450px);
+}
+#alpska-main{
+    transform: translateY(450px);
+}
+#alpska-video{
+    transform: translateY(500px);
 }
