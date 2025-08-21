@@ -1,9 +1,9 @@
 body {
-    background-image: url("Panonska.jpg"), url("c72f0-lika.jpg"), url("Alpska Wallpaper.jpg");
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position-x: center, center, center;
-    background-position-y: 730px, 2350px, 4000px;
-    background-size: 100% 35%, 100% 35%, 100% 35%;
+    background-image: url("Panonska.jpg"), url("c72f0-lika.jpg"), url("Alpska Wallpaper.jpg"), url("Jadranska.jpg");
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position-x: center, center, center, center;
+    background-position-y: 730px, 3050px, 5400px, 7750px;
+    background-size: 100% 35%, 100% 35%, 100% 35%, 100% 35%;
 
 }
 .ContentEnglish{
@@ -21,30 +21,42 @@ body {
 
 
 #dinarska-header{
-    transform: translateY(350px);
+    transform: translateY(910px);
 }
 
 #dinarska-picture{
-    transform: translateY(350px);
+    transform: translateY(920px);
 }
 
 #dinarska-main{
-    transform: translateY(350px);
+    transform: translateY(950px);
 }
 
 #dinarska-video{
-    transform: translateY(370px);
+    transform: translateY(1000px);
 }
 #alpska-header{
-    transform: translateY(450px);
+    transform: translateY(1710px);
 }
 
 #alpska-picture{
-    transform: translateY(450px);
+    transform: translateY(1720px);
 }
 #alpska-main{
-    transform: translateY(450px);
+    transform: translateY(1740px);
 }
 #alpska-video{
-    transform: translateY(500px);
+    transform: translateY(1800px);
+}
+#jadranska-header{
+    transform: translateY(2540px);
+}
+#jadranska-picture{
+    transform: translateY(2550px);
+}
+#jadranska-main{
+    transform: translateY(2560px);
+}
+#jadranska-video{
+    transform: translateY(2600px);
 }
